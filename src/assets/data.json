@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Mark Webber",
+    "avatar": "src/assets/images/avatar-mark-webber.webp",
+    "type": "reaction",
+    "info": {
+      "post": "My first tournament today!"
+    }
+  },
+  {
+    "name": "Angela Gray",
+    "avatar": "src/assets/images/avatar-angela-gray.webp",
+    "type": "follow"
+  },
+  {
+    "name": "Jacob Thompson",
+    "avatar": "src/assets/images/avatar-jacob-thompson.webp",
+    "type": "group",
+    "info": {
+      "type": "join",
+      "group": "Chess Club"
+    }
+  },
+  {
+    "name": "Rizky Hasanuddin",
+    "avatar": "src/assets/images/avatar-rizky-hasanuddin.webp",
+    "type": "message",
+    "info": {
+      "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
+    }
+  },
+  {
+    "name": "Kimberly Smith",
+    "avatar": "src/assets/images/avatar-kimberly-smith.webp",
+    "type": "comment",
+    "info": {
+      "thumbnail": "src/assets/images/image-chess.webp"
+    }
+  },
+  {
+    "name": "Nathan Peterson",
+    "avatar": "src/assets/images/avatar-nathan-peterson.webp",
+    "type": "reaction",
+    "info": {
+      "post": "5 end-game strategies to increase your win rate"
+    }
+  },
+  {
+    "name": "Anna Kim",
+    "avatar": "src/assets/images/avatar-anna-kim.webp",
+    "type": "group",
+    "info": {
+      "type": "leave",
+      "group": "Chess Club"
+    }
+  }
+]
