@@ -5,12 +5,14 @@
     "type": "reaction",
     "info": {
       "post": "My first tournament today!"
-    }
+    },
+    "unread": true
   },
   {
     "name": "Angela Gray",
     "avatar": "src/assets/images/avatar-angela-gray.webp",
-    "type": "follow"
+    "type": "follow",
+    "unread": true
   },
   {
     "name": "Jacob Thompson",
@@ -19,7 +21,8 @@
     "info": {
       "type": "join",
       "group": "Chess Club"
-    }
+    },
+    "unread": true
   },
   {
     "name": "Rizky Hasanuddin",
@@ -27,7 +30,8 @@
     "type": "message",
     "info": {
       "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
-    }
+    },
+    "unread": false
   },
   {
     "name": "Kimberly Smith",
@@ -35,7 +39,8 @@
     "type": "comment",
     "info": {
       "thumbnail": "src/assets/images/image-chess.webp"
-    }
+    },
+    "unread": false
   },
   {
     "name": "Nathan Peterson",
@@ -43,7 +48,8 @@
     "type": "reaction",
     "info": {
       "post": "5 end-game strategies to increase your win rate"
-    }
+    },
+    "unread": false
   },
   {
     "name": "Anna Kim",
@@ -52,6 +58,7 @@
     "info": {
       "type": "leave",
       "group": "Chess Club"
-    }
+    },
+    "unread": false
   }
 ]
