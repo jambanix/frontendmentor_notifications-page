@@ -10,7 +10,7 @@ export const Heading = ({name, title, time, unread, highlight, notificationType}
         <Link>{name}</Link>
         <span className="text-dark-grey-blue">{title}</span>
         {highlight && <Link notificationType={notificationType}>{highlight}</Link>}
-        <div className={`w-3 h-3 rounded-full bg-red inline-block transition-all duration-500 ${unreadMarkerClass}`}></div>
+        <div className={`w-2 h-2 rounded-full bg-red inline-block transition-all duration-500 ${unreadMarkerClass}`}></div>
       </div>
       <p className="text-grey-blue text-sm">{time} ago</p>
     </div>
