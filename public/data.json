@@ -4,14 +4,16 @@
     "avatar": "src/assets/images/avatar-mark-webber.webp",
     "type": "reaction",
     "info": {
-      "post": "My first tournament today!"
+      "highlight": "My first tournament today!"
     },
+    "time": "1m",
     "unread": true
   },
   {
     "name": "Angela Gray",
     "avatar": "src/assets/images/avatar-angela-gray.webp",
     "type": "follow",
+    "time": "5m",
     "unread": true
   },
   {
@@ -20,8 +22,9 @@
     "type": "group",
     "info": {
       "type": "join",
-      "group": "Chess Club"
+      "highlight": "Chess Club"
     },
+    "time": "1 day",
     "unread": true
   },
   {
@@ -31,6 +34,7 @@
     "info": {
       "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
     },
+    "time": "5 days",
     "unread": false
   },
   {
@@ -40,6 +44,7 @@
     "info": {
       "thumbnail": "src/assets/images/image-chess.webp"
     },
+    "time": "1 week",
     "unread": false
   },
   {
@@ -47,8 +52,9 @@
     "avatar": "src/assets/images/avatar-nathan-peterson.webp",
     "type": "reaction",
     "info": {
-      "post": "5 end-game strategies to increase your win rate"
+      "highlight": "5 end-game strategies to increase your win rate"
     },
+    "time": "2 weeks",
     "unread": false
   },
   {
@@ -57,8 +63,9 @@
     "type": "group",
     "info": {
       "type": "leave",
-      "group": "Chess Club"
+      "highlight": "Chess Club"
     },
+    "time": "2 weeks",
     "unread": false
   }
 ]
