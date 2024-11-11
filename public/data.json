@@ -7,14 +7,16 @@
       "highlight": "My first tournament today!"
     },
     "time": "1m",
-    "unread": true
+    "unread": true,
+    "id": 1
   },
   {
     "name": "Angela Gray",
     "avatar": "src/assets/images/avatar-angela-gray.webp",
     "type": "follow",
     "time": "5m",
-    "unread": true
+    "unread": true,
+    "id": 2
   },
   {
     "name": "Jacob Thompson",
@@ -25,7 +27,8 @@
       "highlight": "Chess Club"
     },
     "time": "1 day",
-    "unread": true
+    "unread": true,
+    "id": 3
   },
   {
     "name": "Rizky Hasanuddin",
@@ -35,7 +38,8 @@
       "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
     },
     "time": "5 days",
-    "unread": false
+    "unread": false,
+    "id": 4
   },
   {
     "name": "Kimberly Smith",
@@ -45,7 +49,8 @@
       "thumbnail": "src/assets/images/image-chess.webp"
     },
     "time": "1 week",
-    "unread": false
+    "unread": false,
+    "id": 5
   },
   {
     "name": "Nathan Peterson",
@@ -55,7 +60,8 @@
       "highlight": "5 end-game strategies to increase your win rate"
     },
     "time": "2 weeks",
-    "unread": false
+    "unread": false,
+    "id": 6
   },
   {
     "name": "Anna Kim",
@@ -66,6 +72,7 @@
       "highlight": "Chess Club"
     },
     "time": "2 weeks",
-    "unread": false
+    "unread": false,
+    "id": 7
   }
 ]

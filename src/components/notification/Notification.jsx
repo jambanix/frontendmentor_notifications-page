@@ -15,7 +15,7 @@ export const PhotoComment = ({image}) => {
   )
 }
 
-export const Notification = ({ data }) => {
+export const Notification = ({ data, onClick }) => {
 
   const isUnread = data.unread
   const unreadClass = isUnread ? "bg-blue/5" : "bg-white"
@@ -38,7 +38,7 @@ export const Notification = ({ data }) => {
   }
 
   return (
-    <article className={`grid rounded-lg p-3 cursor-pointer ${gridCols} ${unreadClass}`}>
+    <article className={`grid rounded-lg p-3 cursor-pointer transition-color ${gridCols} ${unreadClass}`} onClick={onClick}>
       <img src={data.avatar} alt={`profile of ${data.name}`} className="h-12 w-12 rounded-full col-start-1"/>
       <div className="col-start-2 space-y-3">
         <Heading name={data.name} title={title()} unread={isUnread} highlight={data.info?.highlight} time={data.time}/>

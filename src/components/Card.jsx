@@ -6,13 +6,16 @@ export const Card = () => {
 
   const [notifications, setNotifications] = useState([]);
 
+  // load initial data
   useEffect(() => {
     fetch("data.json")
     .then(response => response.json())
     .then(data => setNotifications(data));
-
-  console.log(notifications);
   }, []);
+
+  const handleClick = () => {
+
+  }
 
   return (
     <section className="bg-white rounded-lg px-4 py-5 w-[90%] max-w-[730px] md:px-8 md:py-8 flex flex-col gap-6">
@@ -22,9 +25,7 @@ export const Card = () => {
       </header>
       
       <div className="flex flex-col gap-2">
-      {notifications.map(notification => {
-        return <Notification data={notification}/>
-      })}
+      {notifications.map((notification, id) => <Notification data={notification}/>)}
       </div>
     </section>
   )
