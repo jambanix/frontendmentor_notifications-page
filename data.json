@@ -1,7 +1,7 @@
 [
   {
     "name": "Mark Webber",
-    "avatar": "/images/avatar-mark-webber.webp",
+    "avatar": "/assets/images/avatar-mark-webber.webp",
     "type": "reaction",
     "info": {
       "highlight": "My first tournament today!"
@@ -12,7 +12,7 @@
   },
   {
     "name": "Angela Gray",
-    "avatar": "/images/avatar-angela-gray.webp",
+    "avatar": "/assets/images/avatar-angela-gray.webp",
     "type": "follow",
     "time": "5m",
     "unread": true,
@@ -20,7 +20,7 @@
   },
   {
     "name": "Jacob Thompson",
-    "avatar": "/images/avatar-jacob-thompson.webp",
+    "avatar": "/assets/images/avatar-jacob-thompson.webp",
     "type": "group",
     "info": {
       "type": "join",
@@ -32,7 +32,7 @@
   },
   {
     "name": "Rizky Hasanuddin",
-    "avatar": "/images/avatar-rizky-hasanuddin.webp",
+    "avatar": "/assets/images/avatar-rizky-hasanuddin.webp",
     "type": "message",
     "info": {
       "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
@@ -43,10 +43,10 @@
   },
   {
     "name": "Kimberly Smith",
-    "avatar": "/images/avatar-kimberly-smith.webp",
+    "avatar": "/assets/images/avatar-kimberly-smith.webp",
     "type": "comment",
     "info": {
-      "thumbnail": "/images/image-chess.webp"
+      "thumbnail": "/assets/images/image-chess.webp"
     },
     "time": "1 week",
     "unread": false,
@@ -54,7 +54,7 @@
   },
   {
     "name": "Nathan Peterson",
-    "avatar": "/images/avatar-nathan-peterson.webp",
+    "avatar": "/assets/images/avatar-nathan-peterson.webp",
     "type": "reaction",
     "info": {
       "highlight": "5 end-game strategies to increase your win rate"
@@ -65,7 +65,7 @@
   },
   {
     "name": "Anna Kim",
-    "avatar": "/images/avatar-anna-kim.webp",
+    "avatar": "/assets/images/avatar-anna-kim.webp",
     "type": "group",
     "info": {
       "type": "leave",
