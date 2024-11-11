@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Mark Webber",
+    "avatar": "src/assets/images/avatar-mark-webber.webp",
+    "type": "reaction",
+    "info": {
+      "highlight": "My first tournament today!"
+    },
+    "time": "1m",
+    "unread": true,
+    "id": 1
+  },
+  {
+    "name": "Angela Gray",
+    "avatar": "src/assets/images/avatar-angela-gray.webp",
+    "type": "follow",
+    "time": "5m",
+    "unread": true,
+    "id": 2
+  },
+  {
+    "name": "Jacob Thompson",
+    "avatar": "src/assets/images/avatar-jacob-thompson.webp",
+    "type": "group",
+    "info": {
+      "type": "join",
+      "highlight": "Chess Club"
+    },
+    "time": "1 day",
+    "unread": true,
+    "id": 3
+  },
+  {
+    "name": "Rizky Hasanuddin",
+    "avatar": "src/assets/images/avatar-rizky-hasanuddin.webp",
+    "type": "message",
+    "info": {
+      "body": "Hello, thanks for setting up the chess club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game"
+    },
+    "time": "5 days",
+    "unread": false,
+    "id": 4
+  },
+  {
+    "name": "Kimberly Smith",
+    "avatar": "src/assets/images/avatar-kimberly-smith.webp",
+    "type": "comment",
+    "info": {
+      "thumbnail": "src/assets/images/image-chess.webp"
+    },
+    "time": "1 week",
+    "unread": false,
+    "id": 5
+  },
+  {
+    "name": "Nathan Peterson",
+    "avatar": "src/assets/images/avatar-nathan-peterson.webp",
+    "type": "reaction",
+    "info": {
+      "highlight": "5 end-game strategies to increase your win rate"
+    },
+    "time": "2 weeks",
+    "unread": false,
+    "id": 6
+  },
+  {
+    "name": "Anna Kim",
+    "avatar": "src/assets/images/avatar-anna-kim.webp",
+    "type": "group",
+    "info": {
+      "type": "leave",
+      "highlight": "Chess Club"
+    },
+    "time": "2 weeks",
+    "unread": false,
+    "id": 7
+  }
+]
