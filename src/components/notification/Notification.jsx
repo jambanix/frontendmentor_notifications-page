@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { Heading } from "./Heading"
 
 export const PrivateMessage = ({message}) => {

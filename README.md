@@ -47,7 +47,6 @@ Users should be able to:
 
 This challenge did not come with any structured data, so it was a good challenge to structure the needed data into the json file in a way which would allow for a clean codebase
 
-
 ### Continued development
 
 I will continue doing the challenges for more exposure to different problems
