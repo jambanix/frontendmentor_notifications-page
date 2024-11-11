@@ -5,7 +5,7 @@ export const Heading = ({name, title, time, unread, highlight, notificationType}
   const unreadMarkerClass = unread ? "opacity-100 visible" : "opacity-0 invisible"
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-1 justify-center">
       <div className="space-x-[5px]">
         <Link>{name}</Link>
         <span className="text-dark-grey-blue">{title}</span>

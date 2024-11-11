@@ -13,7 +13,7 @@ export const Link = ({children, notificationType}) => {
   }
 
   return (
-    <span className={`${textColour()} font-bold hover:text-blue transition-colors`}>
+    <span className={`${textColour()} font-bold hover:text-blue transition-colors text-sm md:text-md`}>
       {children}
     </span>
   )
