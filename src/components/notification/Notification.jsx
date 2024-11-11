@@ -1,12 +1,27 @@
 import { useState } from "react";
 import { Heading } from "./Heading"
 
+export const PrivateMessage = ({message}) => {
+  return (
+    <p className="p-4 border border-grey-blue">{message}</p>
+  )
+}
+
+export const PhotoComment = ({image}) => {
+  return (
+    <div className="col-start-3">
+      <img src={image} alt="thumbnail of image comment" className="w-12 h-12 rounded-md"/>
+    </div>
+  )
+}
 
 export const Notification = ({ data }) => {
 
   const isUnread = data.unread
   const unreadClass = isUnread ? "bg-blue/5" : "bg-white"
+  const gridCols = data.type !== "comment" ? "grid-cols-[65px_1fr]" : "grid-cols-[65px_1fr_65px]"
 
+  // generate the title relevant to the notification type
   const title = () => {
     switch(data.type) {
       case "reaction":
@@ -22,14 +37,14 @@ export const Notification = ({ data }) => {
     }
   }
 
-
-
   return (
-    <article className={`grid grid-cols-[65px_1fr] rounded-lg p-3 ${unreadClass}`}>
+    <article className={`grid rounded-lg p-3 cursor-pointer ${gridCols} ${unreadClass}`}>
       <img src={data.avatar} alt={`profile of ${data.name}`} className="h-12 w-12 rounded-full col-start-1"/>
-      <div className="col-start-2">
-        <Heading name={data.name} title={title()} unread={isUnread} highlight={data.info?.highlight}/>
+      <div className="col-start-2 space-y-3">
+        <Heading name={data.name} title={title()} unread={isUnread} highlight={data.info?.highlight} time={data.time}/>
+        {data.type === "message" && <PrivateMessage message={data.info.body} />}
       </div>
+      {data.type === "comment" && <PhotoComment image={data.info.thumbnail} />}
     </article>
   )
 }
