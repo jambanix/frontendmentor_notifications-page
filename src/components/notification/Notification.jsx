@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Heading } from "./Heading"
 
 export const PrivateMessage = ({message}) => {
   return (
-    <p className="p-4 border border-grey-blue">{message}</p>
+    <p className="py-4 px-6 border border-grey-blue/20 rounded-lg transition-colors hover:bg-light-grey-blue">{message}</p>
   )
 }
 
@@ -37,11 +37,14 @@ export const Notification = ({ data, onClick }) => {
     }
   }
 
+  // pass ID up to parent on click
+  const handleClick = () => onClick(data.id);
+
   return (
-    <article className={`grid rounded-lg p-3 cursor-pointer transition-color ${gridCols} ${unreadClass}`} onClick={onClick}>
+    <article className={`grid rounded-lg p-3 cursor-pointer transition duration-500 ease-in-out ${gridCols} ${unreadClass}`} onClick={handleClick}>
       <img src={data.avatar} alt={`profile of ${data.name}`} className="h-12 w-12 rounded-full col-start-1"/>
       <div className="col-start-2 space-y-3">
-        <Heading name={data.name} title={title()} unread={isUnread} highlight={data.info?.highlight} time={data.time}/>
+        <Heading name={data.name} title={title()} unread={isUnread} highlight={data.info?.highlight} time={data.time} notificationType={data.type}/>
         {data.type === "message" && <PrivateMessage message={data.info.body} />}
       </div>
       {data.type === "comment" && <PhotoComment image={data.info.thumbnail} />}

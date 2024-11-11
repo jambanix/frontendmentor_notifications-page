@@ -17,7 +17,8 @@ export default {
       "light-grey-blue": "#e5effa",
       "very-light-grey-blue": "#dde7ee",
       "snow": "#f7fafd",
-      "white": "#f7fafd"
+      "white": "#f7fafd",
+      "black": "#000000"
     }
   },
   plugins: [],
